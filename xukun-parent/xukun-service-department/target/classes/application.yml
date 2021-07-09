@@ -1,0 +1,13 @@
+server:
+  port: 9500
+spring:
+  application:
+    name: xukun-service-department
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123456
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名
