@@ -6,4 +6,7 @@ import com.xukun.common.pojo.Department;
 public interface DepartmentMapper extends BaseMapper<Department> {
   
   void udpate();
+  void delete();
+  void insert();
+  void select();
 }
